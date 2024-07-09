@@ -1,4 +1,0 @@
-Latvija-100: Kā sauc Latvijas galvaspilsētu?|Rīga
-Latvija-200: Kurā gadā Latvija iestājās Eiropas Savienībā?|2004
-Zinātne-100: Kā sauc ķīmisko elementu ar simbolu O?|Skābeklis
-Zinātne-200: Kāda planēta ir vislielākā Saules sistēmā?|Jupiters
