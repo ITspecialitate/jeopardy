@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy!</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Jeopardy!</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Latvija</th>
+                <th>Zinātne</th>
+                <th>Vēsture</th>
+                <th>Sports</th>
+                <th>Literatūra</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Row 1 -->
+            <tr>
+                <td id="latvija-100" onclick="showQuestion('latvija-100', this)">100</td>
+                <td id="zinatne-100" onclick="showQuestion('zinatne-100', this)">100</td>
+                <td id="vesture-100" onclick="showQuestion('vesture-100', this)">100</td>
+                <td id="sports-100" onclick="showQuestion('sports-100', this)">100</td>
+                <td id="literatura-100" onclick="showQuestion('literatura-100', this)">100</td>
+            </tr>
+            <!-- Row 2 -->
+            <tr>
+                <td id="latvija-200" onclick="showQuestion('latvija-200', this)">200</td>
+                <td id="zinatne-200" onclick="showQuestion('zinatne-200', this)">200</td>
+                <td id="vesture-200" onclick="showQuestion('vesture-200', this)">200</td>
+                <td id="sports-200" onclick="showQuestion('sports-200', this)">200</td>
+                <td id="literatura-200" onclick="showQuestion('literatura-200', this)">200</td>
+            </tr>
+            <!-- Row 3 -->
+            <tr>
+                <td id="latvija-300" onclick="showQuestion('latvija-300', this)">300</td>
+                <td id="zinatne-300" onclick="showQuestion('zinatne-300', this)">300</td>
+                <td id="vesture-300" onclick="showQuestion('vesture-300', this)">300</td>
+                <td id="sports-300" onclick="showQuestion('sports-300', this)">300</td>
+                <td id="literatura-300" onclick="showQuestion('literatura-300', this)">300</td>
+            </tr>
+            <!-- Row 4 -->
+            <tr>
+                <td id="latvija-400" onclick="showQuestion('latvija-400', this)">400</td>
+                <td id="zinatne-400" onclick="showQuestion('zinatne-400', this)">400</td>
+                <td id="vesture-400" onclick="showQuestion('vesture-400', this)">400</td>
+                <td id="sports-400" onclick="showQuestion('sports-400', this)">400</td>
+                <td id="literatura-400" onclick="showQuestion('literatura-400', this)">400</td>
+            </tr>
+            <!-- Row 5 -->
+            <tr>
+                <td id="latvija-500" onclick="showQuestion('latvija-500', this)">500</td>
+                <td id="zinatne-500" onclick="showQuestion('zinatne-500', this)">500</td>
+                <td id="vesture-500" onclick="showQuestion('vesture-500', this)">500</td>
+                <td id="sports-500" onclick="showQuestion('sports-500', this)">500</td>
+                <td id="literatura-500" onclick="showQuestion('literatura-500', this)">500</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="question-box">
+        <h2>Jautājums</h2>
+        <button onclick="closeQuestion()">Aizvērt</button>
+        <div id="question-content"></div>
+        <button onclick="showAnswer()">Parādīt atbildi</button>
+        <div id="answer-content" class="hidden"></div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/questions.js"></script>
+</body>
+</html>
