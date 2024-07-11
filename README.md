@@ -7,7 +7,10 @@ Viktorīnai ir līdzība ar jeopardy spēli un lietotājs var izveidot pats savu
    
 ## Kā rediģēt questions.js?
 
-Rediģējot jautājumus un atbildes ir jāaceras, ka drīkst rediģēt tikai to, kas atrodas vienpēdiņās.
+* Rediģējot jautājumus un atbildes ir jāaceras, ka drīkst rediģēt tikai to, kas atrodas vienpēdiņās.
+* Nav ieteicams rediģēt/izmainīt `id`
+* Ja vēlaties ievietot attēlu
+* Ja vēlaties ievietot video 
 
 4. **Atveriet index.html** un ja ir nepieciešams rediģējat sadaļu virsrakstus. ![index.html img](index_html_tages.png)
 
