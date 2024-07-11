@@ -9,8 +9,8 @@ Viktorīnai ir līdzība ar jeopardy spēli un lietotājs var izveidot pats savu
 
 * Rediģējot jautājumus un atbildes ir jāaceras, ka drīkst rediģēt tikai to, kas atrodas vienpēdiņās.
 * Nav ieteicams rediģēt/izmainīt `id`
-* Ja vēlaties ievietot attēlu, ievietojiet šo kodu `'example-image': {question: '<img src="dnd_logo.png" alt="Example Image">', answer: 'Šis ir piemērs ar attēlu'},` un nomainiet `dnd_logo.png` ar savu attēla adresi, ja vēlaties varat nomainīt attēla nosaukumu, kas atrodas elementa `alt` dubultpēdiņās.
-* Ja vēlaties ievietot video ievietojiet šo kodu `'example-video': {question: 'Šis ir jautājums ar video atbildi', answer: '<video controls><source src="dnd.mp4" type="video/mp4">Jūsu pārlūks neatbalsta video tagu.</video>'}`
+* Ja vēlaties **ievietot attēlu**, ievietojiet šo kodu `'example-image': {question: '<img src="dnd_logo.png" alt="Example Image">', answer: 'Šis ir piemērs ar attēlu'},` un nomainiet `dnd_logo.png` ar savu attēla adresi, ja vēlaties varat nomainīt attēla nosaukumu, kas atrodas elementa `alt` dubultpēdiņās.
+* Ja vēlaties **ievietot video**, ievietojiet šo kodu `'example-video': {question: 'Šis ir jautājums ar video atbildi', answer: '<video controls><source src="dnd.mp4" type="video/mp4">Jūsu pārlūks neatbalsta video tagu.</video>'}`
 
 4. **Atveriet index.html** un ja ir nepieciešams rediģējat sadaļu virsrakstus. ![index.html img](index_html_tages.png)
 
