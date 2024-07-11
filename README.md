@@ -17,7 +17,7 @@ Lejupielādē zip failu no saites https://github.com/ITspecialitate/jeopardy/arc
 * Ja vēlaties **ievietot attēlu**, ievietojiet šo kodu `'example-image': {question: '<img src="dnd_logo.png" alt="Example Image">', answer: 'Šis ir piemērs ar attēlu'},` un nomainiet `dnd_logo.png` ar savu attēla adresi, ja vēlaties varat nomainīt attēla nosaukumu, kas atrodas elementa `alt` dubultpēdiņās.
 * Ja vēlaties **ievietot video**, ievietojiet šo kodu `'example-video': {question: 'Šis ir jautājums ar video atbildi', answer: '<video controls><source src="dnd.mp4" type="video/mp4">Jūsu pārlūks neatbalsta video tagu.</video>'}` aizstājiet `dnd.mp4` ar sava video atrašanās vietu. 
 
-## Atveriet index.html 
+## index.html 
 
 Ja ir nepieciešams rediģējat sadaļu virsrakstus. ![index.html img](index_html_tages.png)
 
