@@ -20,5 +20,3 @@ index.html ![index.html id img](index_html_id.png)
 
 questions.js ![questions.js id img](questions_js_id.png)
 
-'example-image': {question: '<img src="dnd_logo.png" alt="Example Image">', answer: 'Šis ir piemērs ar attēlu'},
-'example-video': {question: 'Šis ir jautājums ar video atbildi', answer: '<video controls><source src="dnd.mp4" type="video/mp4">Jūsu pārlūks neatbalsta video tagu.</video>'}
