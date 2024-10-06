@@ -42,6 +42,17 @@ td.crossed {
     justify-content: center;
     text-align: center;
 }
+
+#question-content {
+    font-size: 50px;
+    color: #0000ff;
+}
+
+#answer-content {
+    font-size: 50px;
+    color: #ff0000;
+}
+
 #question-box h2 {
     font-size: 2em;
     margin: 0.5em 0;
